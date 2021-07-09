@@ -1,9 +1,11 @@
 {
   "version": "0.0.0",
   "scripts": {
+		"start": "yarn dev",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint src"
   },
   "dependencies": {
     "@types/node": "^16.0.1",
