@@ -1,4 +1,4 @@
-<template>home</template>
+<template>home <img src="@/assets/test.jpg" /></template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'

@@ -42,6 +42,9 @@ module.exports = {
 		'import/no-unresolved': 0, // alias路径 eslint没有遵循webpack的规则~ 先禁掉
 		'import/extensions': 0, // 引用后缀名必须有~ 禁掉
 		'vue/no-multiple-template-root': 0, // template里 第一层必须有标签~ 禁掉
-		'import/no-extraneous-dependencies': 0 // 引入要严格区分-D -S~ 禁掉
+		'import/no-extraneous-dependencies': 0, // 引入要严格区分-D -S~ 禁掉
+		'no-plusplus': 0, // 不给用一元运算符++，--~禁掉
+		'no-console': 0, // 不让console~ 禁掉,
+		'linebreak-style': [2, 'unix']
 	}
 }
